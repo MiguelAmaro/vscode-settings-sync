@@ -1,0 +1,79 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+f1",
+    "command": "python.execInTerminal-icon"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.closeGroup"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "ctrl+shift+[",
+    "command": "workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+]",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "editor.action.fontZoomReset"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+_",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.formatDocument" 
+  },
+  {
+    "key": "ctrl+i",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "alt+pageup",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  }
+]
