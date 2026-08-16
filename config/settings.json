@@ -24,10 +24,21 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 1,
+    "zenMode.showTabs": "none",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#000000",
         "editor.lineHighlightBorder": "#ff00005d"
     },
+    "chat.mcp.gallery.enabled": true,
+    "chat.hookFilesLocations": {
+        ".github/hooks": true,
+        ".claude/settings.local.json": true,
+        ".claude/settings.json": true,
+        "~/.copilot/hooks": true,
+        "~/.claude/settings.json": true,
+        "~/.agents/hooks": true
+    },
+    "chat.viewSessions.orientation": "stacked",
     "workbench.experimental.modernUI": false,
     "accessibility.dimUnfocused.enabled": true,
     "accessibility.dimUnfocused.opacity": 0.6

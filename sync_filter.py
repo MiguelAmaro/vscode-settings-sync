@@ -11,6 +11,8 @@ SAFE_PREFIXES = (
     "workbench.",
     "window.",
     "files.",
+    "zenMode.",
+    "chat.",
     "search.",
     "explorer.",
     "breadcrumbs.",
