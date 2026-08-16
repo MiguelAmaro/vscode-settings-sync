@@ -42,6 +42,26 @@
     "key": "alt+.",
     "command": "workbench.action.terminal.focus"
   },
+  {
+    "key": "pagedown",
+    "command": "scrollPageDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "scrollPageUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "cursorBottom",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "cursorTop",
+    "when": "editorTextFocus"
+  },
   // Panel Toggles (Left, Right, Bottom)
   {
     "key": "alt+b",

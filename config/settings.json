@@ -44,5 +44,6 @@
     "C_Cpp.intelliSenseEngine": "Tag Parser",
     "chat.viewSessions.orientation": "stacked",
     "editor.glyphMargin": false,
-    "editor.folding": false
+    "editor.folding": false,
+    "workbench.colorTheme": "Construct"
 }
