@@ -26,7 +26,7 @@
     "workbench.editor.limit.value": 1,
     "zenMode.showTabs": "none",
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#000000",
+        "editor.lineHighlightBackground": "#ec090910",
         "editor.lineHighlightBorder": "#ff00005d"
     },
     "chat.mcp.gallery.enabled": true,
@@ -41,5 +41,8 @@
     "workbench.experimental.modernUI": false,
     "accessibility.dimUnfocused.enabled": true,
     "accessibility.dimUnfocused.opacity": 0.6,
-    "chat.viewSessions.orientation": "stacked"
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "chat.viewSessions.orientation": "stacked",
+    "editor.glyphMargin": false,
+    "editor.folding": false
 }

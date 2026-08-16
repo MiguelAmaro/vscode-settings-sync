@@ -17,6 +17,7 @@ SAFE_PREFIXES = (
     "explorer.",
     "breadcrumbs.",
     "terminal.",
+    "C_Cpp.",
 )
 
 def main():
