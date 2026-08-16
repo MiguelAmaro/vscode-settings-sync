@@ -1,13 +1,27 @@
 // Place your key bindings in this file to override the defaults
 [
+  // Code And Symbol Navigation
   {
-    "key": "ctrl+f1",
-    "command": "python.execInTerminal-icon"
+    "key": "ctrl+i",
+    "command": "workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+,",
-    "command": "workbench.action.navigateEditorGroups"
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
   },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "ctrl+shift+.",
+    "command": "breadcrumbs.focusAndSelect"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.gotoSymbol"
+  },
+  // Editor Splitting And Navigation
   {
     "key": "ctrl+p",
     "command": "workbench.action.splitEditor"
@@ -17,9 +31,43 @@
     "command": "workbench.action.splitEditorDown"
   },
   {
+    "key": "ctrl+,",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
     "key": "ctrl+shift+p",
     "command": "workbench.action.closeGroup"
   },
+  {
+    "key": "alt+.",
+    "command": "workbench.action.terminal.focus"
+  },
+  // Panel Toggles (Left, Right, Bottom)
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+pagedown",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "alt+pageup",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  // Zooming
   {
     "key": "ctrl+[",
     "command": "editor.action.fontZoomOut"
@@ -37,14 +85,6 @@
     "command": "workbench.action.zoomIn"
   },
   {
-    "key": "ctrl+0",
-    "command": "editor.action.fontZoomReset"
-  },
-  {
-    "key": "alt+x",
-    "command": "workbench.action.showCommands"
-  },
-  {
     "key": "ctrl+_",
     "command": "-workbench.action.zoomOut"
   },
@@ -53,27 +93,24 @@
     "command": "-workbench.action.zoomIn"
   },
   {
+    "key": "ctrl+0",
+    "command": "editor.action.fontZoomReset"
+  },
+  // Other
+  {
+    "key": "ctrl+f1",
+    "command": "python.execInTerminal-icon"
+  },
+  {
     "key": "ctrl+e",
     "command": "editor.action.formatDocument" 
   },
   {
-    "key": "ctrl+i",
-    "command": "workbench.action.quickOpen"
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
   },
   {
-    "key": "ctrl+e",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
-    "key": "ctrl+j",
-    "command": "workbench.action.showAllSymbols"
-  },
-  {
-    "key": "alt+pageup",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal"
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.tasks.build"
   }
 ]
