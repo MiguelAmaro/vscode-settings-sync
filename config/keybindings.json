@@ -38,18 +38,15 @@
     "key": "ctrl+shift+p",
     "command": "workbench.action.closeGroup"
   },
-  {
-    "key": "alt+.",
-    "command": "workbench.action.terminal.focus"
-  },
+  // Cursor Movement
   {
     "key": "pagedown",
-    "command": "scrollPageDown",
+    "command": "cursorPageDown",
     "when": "editorTextFocus"
   },
   {
     "key": "pageup",
-    "command": "scrollPageUp",
+    "command": "cursorPageUp",
     "when": "editorTextFocus"
   },
   {
@@ -61,6 +58,28 @@
     "key": "ctrl+pageup",
     "command": "cursorTop",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "home",
+    "command": "cursorHome",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "end",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorMove",
+    "args": {
+      "to": "viewPortCenter"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+.",
+    "command": "workbench.action.terminal.focus"
   },
   // Panel Toggles (Left, Right, Bottom)
   {
@@ -122,7 +141,7 @@
     "command": "python.execInTerminal-icon"
   },
   {
-    "key": "ctrl+e",
+    "key": "ctrl+alt+e",
     "command": "editor.action.formatDocument" 
   },
   {

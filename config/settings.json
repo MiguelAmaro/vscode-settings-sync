@@ -25,10 +25,6 @@
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 1,
     "zenMode.showTabs": "none",
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#ec090910",
-        "editor.lineHighlightBorder": "#ff00005d"
-    },
     "chat.mcp.gallery.enabled": true,
     "chat.hookFilesLocations": {
         ".github/hooks": true,
@@ -45,5 +41,16 @@
     "chat.viewSessions.orientation": "stacked",
     "editor.glyphMargin": false,
     "editor.folding": false,
-    "workbench.colorTheme": "Construct"
+    "workbench.colorTheme": "Construct Balanced",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#ec090910",
+        "editor.lineHighlightBorder": "#ff00005d",
+        "editorBracketHighlight.foreground1": "#D6A928",
+        "editorBracketHighlight.foreground2": "#76A4AA",
+        "editorBracketHighlight.foreground3": "#91A17F",
+        "editorBracketHighlight.foreground4": "#C68A58",
+        "editorBracketHighlight.foreground5": "#D95454",
+        "editorBracketHighlight.foreground6": "#DAD5CF",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#D95454"
+    }
 }
